@@ -1,0 +1,25 @@
+{
+  "name": "TesteDeIntegracao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cefas Garcia Pereira",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "jest": "jest"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "mongoose": "^6.2.10",
+    "superagent": "^7.1.2",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
